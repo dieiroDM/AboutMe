@@ -9,91 +9,61 @@
     <title> Domingos Dieiro </title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="css/main.css">
-    <!-- Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Dancing+Script" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Ledger" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Arimo" rel="stylesheet">
 </head>
 
-<body class="bd">
+<body>
+    <header class="cabecalho">
+        <img class="cabecalho-imagem" src="./img/LOGO.svg" alt="lOGO cv" width="70">
+        <nav class="cabecalho-menu">
+            <a class="cabecalho-menu-item" href="#">INÍCIO</a>
+            <a class="cabecalho-menu-item" href="#">HABILIDADES</a>
+            <a class="cabecalho-menu-item" href="#">CONTACTOS</a>
+            <a class="cabecalho-menu-item" href="#">SOBRE</a>
+        </nav>
+    </header>
 
-    <div class="menu">
-        <div class="logoText">
-            <h1>DDM</h1>
-        </div>
-        <div class="menuOptions">
-            <ul>
-                <li><a href="#">INÍCIO</a></li>
-                <li><a href="#">HABILIDADES</a></li>
-                <li><a href="#">TRABALHOS</a></li>
-                <li><a href="#">CONTACTOS</a></li>
-                <li><input type="text" placeholder="Pesquisar"></li>
-            </ul>
-        </div>
-    </div>
+    <main class="conteudo">
+        <section class="conteudo-p1">
+            <img class="conteudo-p1-imagem" src="./img/DDMPerfil.jpg" alt="DDM perfil pic">
 
-    <div class="aboutMe">
-        <h1> Domingos Dieiro Miguel </h1><br>
-        <div>
-            <p>Sou Técnico de Informática, estou disposto a Trabalhar em área que me for
-                designada segundo as minhas competências, Sou um jovem de fácil adaptação.
-                Disponibilidade Imediata
-                Crescer e desenvolver a nível professional e impulsionar o crescimento da
-                instituição, contribuir para o desenvolvimento da Instituição.</p><br>
-            <div class="contacts">
-                <ul>
-                    <li><a href="https://www.facebook.com/dieiroDM/" target="blank"><i class="fa fa-facebook"
-                                style="color: blue;"></i></a>
-                    </li>
-                    <li><a href="https://www.instagram.com/dieiroDM/" target="blank"><i class="fa fa-instagram"
-                                style="color: rgb(243, 0, 203);"></i></a>
-                    </li>
-                    <li><a href="https://www.github.com/dieiroDM" target="blank"><i class="fa fa-github"
-                                style="color: rgb(22, 22, 22);"></i></a></li>
-                    <li><a href="dieiro.dm@gmail.com" target="blank"><i class="fa fa-at"></i></a></li>
-                </ul>
+            <div class="conteudo-p1-escrito">
+                <h1 class="conteudo-p1-escrito-titulo">Domingos Dieiro Miguel</h1>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-triangle"> </i> 23 anos de idade</p>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-triangle"> </i> Desenvolvedor de Software</p>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-triangle"> </i> Viana, Luanda - Angola</p>
             </div>
-            <br>
-        </div>
-    </div>
+        </section>
 
-    <div class="container">
-        <div class="containerIMG">
-            <img src="./img/DDMPerfil.jpg" alt="DDM profil">
-        </div>
-
-        <div class="contAbout">
-            <div class="titleLarge">
-                <h1>Estudande de Eng. informática Desenvolvedor </h1>
+        <section class="conteudo-p1">
+            <div class="conteudo-p1-escrito">
+                <h2 class="conteudo-p1-escrito-titulo">Habilidades</h2>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-circle"></i> Back-End - C#, Python & Dart</p>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-circle"></i> Front-End - Css & Flutter</p>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-circle"></i> Aprendo Novas habilidades</p>
             </div>
-            <div class="works">
-                <div class="works_1">
-                    <i class="fa fa-flutter"></i>
-                    <h1>Back-End</h1>
-                    <h3>C#, Python e Dart</h3>
-                </div>
+            <img class="conteudo-p2-imagem" src="./img/habilidades.svg" alt="DDM perfil pic">
+        </section>
 
-                <div class="works_1">
-                    <h1>Front-End</h1>
-                    <h3>HTML, CSS e Flutter</h3>
-                </div>
-
-                <div class="works_1">
-                    <h1>Web Design</h1>
-                    <h3>Lunacy e Canvas</h3>
-                </div>
-
-                <div class="works_1">
-                    <h1>NOVAS HABILIDADES</h1>
-                    <h3>works</h3>
-                </div>
+        <section class="conteudo-p1">
+            <img class="conteudo-p3-imagem" src="./img/aprender.svg" alt="DDM perfil pic" width="200" height="200">
+            <div class="conteudo-p1-escrito">
+                <h2 class="conteudo-p1-escrito-titulo">Habilitações Literárias</h2>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-chalkboard-user"></i>Eng. Informática,
+                    Frequentando 3º ano</p>
+                <p class="conteudo-p1-escrito-sub"><i class="fa fa-chalkboard-user"></i>Técnico Médio de
+                    Informática - Simione Mucune(2017)</p>
             </div>
-        </div>
-    </div>
 
-    <footer>
+        </section>
+    </main>
+
+
+    <footer class="rodape">
+        <nav class="rodape-links">
+            <a class="rodape-links-item"><i class="fa fa-facebook"></i></a>
+            <a class="rodape-links-item"><i class="fa fa-github"></i></a>
+            <a class="rodape-links-item"><i class="fa fa-instagram"></i></a>
+        </nav>
     </footer>
 
 </body>
